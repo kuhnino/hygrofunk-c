@@ -1,5 +1,5 @@
 {
-    "name": "Hygro+Funk-C",
+    "name": "Sender_Temp+Hygro",
     "description": "",
     "dependencies": {
         "core": "*",
