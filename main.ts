@@ -18,7 +18,7 @@ basic.forever(function () {
     basic.pause(2000)
     Le = convertToText(DHT11.humidity())
     basic.pause(2000)
-    STXT = convertToText("" + SID + "," + Ti + "," + Te + "," + Le)
+    STXT = convertToText("" + SID + "," + Te + "," + "°C" + "," + Le + "," + "rH")
     basic.pause(2000)
     radio.sendString(STXT)
     basic.pause(2000)
